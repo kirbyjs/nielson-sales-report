@@ -1,57 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddabae01-f5a2-4fca-8ea9-4ff089c49ecf" name="Default Changelist" comment="feat: add ui">
-      <change afterPath="$PROJECT_DIR$/.babelrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nielsen-sales-report.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/sections/equipment-defaults.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/sections/payment-information.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/sections/section-default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/sections/sold-equipment.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/sections/trade-equipment.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/months.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fa-library.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/injected-components/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mobx/general-information.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mobx/payment-information.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mobx/sold-equipment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mobx/stores.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mobx/trade-equipment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mobx/trade-payoffs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/common/radio-input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/common/select-input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/common/text-input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/common/true-false-radio-buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/equipment/equipment-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/equipment/sold-equipment-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/equipment/trade-equipment-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/general-information.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/payment-information.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/trade-payoff/trade-payoff-row.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/trade-payoff/trade-payoff-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/config/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/config/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/config/dev-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/config/dll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/vendors.js" afterDir="false" />
+    <list default="true" id="ddabae01-f5a2-4fca-8ea9-4ff089c49ecf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,6 +33,7 @@
           <entry key="html" value="2" />
           <entry key="js" value="101" />
           <entry key="json" value="3" />
+          <entry key="md" value="1" />
           <entry key="scss" value="30" />
         </counts>
       </usages-collector>
@@ -91,6 +43,7 @@
           <entry key="HTML" value="2" />
           <entry key="JSON" value="8" />
           <entry key="JavaScript" value="101" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="30" />
         </counts>
@@ -106,6 +59,7 @@
           <entry key="gitignore" value="6" />
           <entry key="html" value="24" />
           <entry key="js" value="17544" />
+          <entry key="md" value="22" />
           <entry key="scss" value="5246" />
           <entry key="txt" value="13" />
         </counts>
@@ -115,6 +69,7 @@
           <entry key="HTML" value="24" />
           <entry key="JSON" value="116" />
           <entry key="JavaScript" value="17544" />
+          <entry key="Markdown" value="22" />
           <entry key="PLAIN_TEXT" value="19" />
           <entry key="SCSS" value="5246" />
         </counts>
@@ -161,7 +116,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/views/payment-information.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="481">
@@ -169,6 +124,18 @@
                   <folding>
                     <element signature="e#72#113#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor>
+                    <caret column="22" selection-start-column="22" selection-end-column="22" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -321,7 +288,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/constants/months.js" />
         <option value="$PROJECT_DIR$/src/views/common/form-input.js" />
         <option value="$PROJECT_DIR$/src/mobx/store.js" />
         <option value="$PROJECT_DIR$/src/views/sold-equipment.js" />
@@ -372,6 +338,7 @@
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/src/injected-components/app.js" />
         <option value="$PROJECT_DIR$/src/views/payment-information.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -496,7 +463,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2268431" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2268431" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -849,6 +816,16 @@
           <folding>
             <element signature="e#72#113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="22" selection-start-column="22" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
