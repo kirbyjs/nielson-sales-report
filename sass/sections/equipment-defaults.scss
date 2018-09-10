@@ -1,0 +1,39 @@
+// Created by kirbyjs on 9/8/18.
+@import '../variables';
+
+.report-section .equipment-list {
+  margin-top: 20px;
+
+  & + .add-equipment-button {
+    background-color: $secondary-color;
+    color: $main-white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+
+    svg {
+      margin-right: 10px;
+    }
+  }
+}
+
+.equipment {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  position: relative;
+
+  .fa-times-circle {
+    background-color: $main-white;
+    border-radius: 15px;
+    color: $secondary-color;
+    cursor: pointer;
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    height: 26px;
+    width: 26px;
+  }
+}
+
+

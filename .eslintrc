@@ -1,0 +1,25 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "import/no-extraneous-dependencies": "off",
+    "indent": ["error", 4],
+    "max-len": ["error", 120],
+    "react/forbid-prop-types": "off",
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    "react/jsx-filename-extension": "off",
+    "react/require-default-props": "off",
+    "jsx-a11y/label-has-for": [ 2, {
+      "components": [ "Label" ],
+      "required": {
+        "some": [ "id", "nesting" ]
+      },
+      "allowChildren": false
+    }]
+  }
+}

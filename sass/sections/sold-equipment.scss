@@ -1,0 +1,46 @@
+// Created by kirbyjs on 9/7/18.
+@import '../variables';
+
+.sold-equipment {
+  .condition {
+    .true-false-radio-buttons {
+      > label:first-of-type {
+        margin-left: 30px;
+      }
+    }
+  }
+
+  .power-guard > div,
+  .notes > div {
+    width: calc(100% - 125px);
+  }
+
+  .power-guard-notes {
+    padding: 10px 0 0;
+
+    label {
+      margin-left: 5px;
+    }
+
+    input {
+      margin-left: 10px;
+      padding: 5px;
+      width: calc(100% - 120px);
+    }
+  }
+
+  .notes {
+    .true-false-radio-buttons {
+      > label:first-of-type {
+        margin-left: 17px;
+      }
+    }
+
+    textarea {
+      padding: 10px;
+      resize: none;
+      margin: 15px 0 0 17px;
+      width: calc(100% - 37px);
+    }
+  }
+}

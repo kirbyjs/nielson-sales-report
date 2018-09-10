@@ -1,0 +1,32 @@
+// Created by kirbyjs on 9/8/18.
+@import '../variables';
+
+.trade-equipment {
+  .main-details {
+    height: 180px;
+  }
+
+  .on-lot-condition {
+    margin: 10px 0 10px 10px;
+
+    label {
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+  }
+
+  .description-container {
+    margin: 10px;
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    textarea {
+      padding: 10px;
+      resize: none;
+      width: calc(100% - 25px);
+    }
+  }
+}

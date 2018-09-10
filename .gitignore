@@ -1,0 +1,5 @@
+/.idea
+/dist
+/node_modules
+/webpack/manifest
+/webpack/vendor-scripts

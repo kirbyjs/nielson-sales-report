@@ -1,0 +1,47 @@
+@import '~normalize.css/normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import 'variables';
+@import 'sections/section-default';
+@import 'sections/equipment-defaults';
+@import 'sections/sold-equipment';
+@import 'sections/trade-equipment';
+@import 'sections/payment-information';
+
+body {
+  background-color: $main-white;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px 40px;
+
+  input[type="text"] {
+    padding: 5px;
+  }
+
+  #root > header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    h1 {
+      position: absolute;
+      top: 10px;
+      color: $main-color;
+      text-align: center;
+    }
+
+    @media all and (max-width: $break-point) {
+      h1 {
+        position: relative;
+        top: 0;
+        width: 100%;
+      }
+    }
+
+    h2 {
+      min-width: 150px;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
