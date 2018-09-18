@@ -8,7 +8,7 @@ import TextInput from '../common/text-input';
 import SelectInput from '../common/select-input';
 import { TradePayoff } from '../../mobx/trade-payoffs';
 
-@inject('tradeEquipmentListStore')
+@inject(({ rootStore }) => ({ tradeEquipmentListStore: rootStore.tradeEquipmentListStore }))
 @observer
 export default class TradePayoffRow extends Component {
     render() {

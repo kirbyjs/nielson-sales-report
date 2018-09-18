@@ -4,12 +4,15 @@ import { inject } from 'mobx-react';
 import App from '../app';
 
 function mapStoresToProps(stores) {
+    const { rootStore } = stores;
+
     return {
-        generalInfo: stores.generalInfoStore,
-        soldEquipmentList: stores.soldEquipmentListStore,
-        tradeEquipmentList: stores.tradeEquipmentListStore,
-        tradePayoffList: stores.tradePayoffListStore,
-        paymentInfo: stores.paymentInfoStore
+        generalInfo: rootStore.generalInfoStore,
+        soldEquipmentList: rootStore.soldEquipmentListStore,
+        tradeEquipmentList: rootStore.tradeEquipmentListStore,
+        tradePayoffList: rootStore.tradePayoffListStore,
+        paymentInfo: rootStore.paymentInfoStore,
+        submitForm: rootStore.submitForm
     };
 }
 

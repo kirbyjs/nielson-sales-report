@@ -1,5 +1,4 @@
 // Created by kirbyjs on 9/9/18.
-
 @import '../variables';
 
 .payment-information-section {
@@ -34,11 +33,21 @@
           > input {
             width: calc(100% - 210px);
           }
+
+          @media all and (max-width: $small-break-point) {
+            display: block;
+            width: 100%;
+
+            > input {
+              margin-left: 10px;
+              width: calc(100% - 22px);
+            }
+          }
         }
       }
     }
 
-    @media all and (max-width: $break-point) {
+    @media all and (max-width: $mid-break-point) {
       .radio-inputs {
         display: block;
         margin-top: 20px;
@@ -126,6 +135,12 @@
 
     label {
       width: 200px;
+    }
+
+    @media all and (min-width: $small-break-point) {
+      .text-input input {
+        width: calc(100% - 220px);
+      }
     }
   }
 }

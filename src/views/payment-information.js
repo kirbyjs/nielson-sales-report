@@ -12,7 +12,7 @@ import RadioInput from './common/radio-input';
 import TextInput from './common/text-input';
 import TradePayoffTable from './trade-payoff/trade-payoff-table';
 
-@inject('tradeEquipmentListStore')
+@inject(({ rootStore }) => ({ tradeEquipmentListStore: rootStore.tradeEquipmentListStore }))
 @observer
 export default class PaymentInformationView extends Component {
     render() {
@@ -84,13 +84,13 @@ export default class PaymentInformationView extends Component {
                     </div>
                     <div className="trade-payoff-section">
                         <div>Do any of the trade units have payoffs? If so, list below:</div>
-                        <TradePayoffTable tradePayoffList={tradePayoffsList} />
+                        <TradePayoffTable tradePayoffList={tradePayoffsList}/>
                         <button
                             type="button"
                             onClick={tradePayoffsList.addTradePayoff}
                             disabled={tradeEquipmentListStore.equipmentDisplayNames.length <= tradePayoffsList.tradePayoffs.length}
                         >
-                            <FontAwesomeIcon icon="plus" />
+                            <FontAwesomeIcon icon="plus"/>
                             Add Trade Payoff
                         </button>
                     </div>

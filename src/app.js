@@ -40,6 +40,14 @@ function App(props) {
                 paymentInfo={props.paymentInfo}
                 tradePayoffsList={props.tradePayoffList}
             />
+            <button
+                className="submit-button"
+                type="button"
+                onClick={props.submitForm}
+            >
+                Submit Form
+            </button>
+            <div className="clearfix" />
         </React.Fragment>
     );
 }
@@ -54,6 +62,7 @@ App.propTypes = {
         equipment: PropTypes.object,
         removeEquipmentOnClickWrapper: PropTypes.func
     }),
+    submitForm: PropTypes.func,
     tradeEquipmentList: PropTypes.shape({
         addEquipment: PropTypes.func,
         equipment: PropTypes.object,

@@ -17,31 +17,48 @@ body {
     padding: 5px;
   }
 
-  #root > header {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+  .clearfix {
+    clear: both;
+  }
 
-    h1 {
-      position: absolute;
-      top: 10px;
-      color: $main-color;
-      text-align: center;
-    }
+  #root {
+    position: relative;
 
-    @media all and (max-width: $break-point) {
+    > header {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+
       h1 {
-        position: relative;
-        top: 0;
+        position: absolute;
+        top: 10px;
+        color: $main-color;
+        text-align: center;
+      }
+
+      @media all and (max-width: $mid-break-point) {
+        h1 {
+          position: relative;
+          top: 0;
+          width: 100%;
+        }
+      }
+
+      h2 {
+        min-width: 150px;
+        text-align: center;
         width: 100%;
       }
     }
+  }
 
-    h2 {
-      min-width: 150px;
-      text-align: center;
-      width: 100%;
-    }
+  .submit-button {
+    background-color: $secondary-color;
+    color: $main-white;
+    margin-right: 10px;
+    float: right;
+    padding: 10px 15px;
+    cursor: pointer;
   }
 }
 

@@ -4,6 +4,10 @@
 .report-section {
   margin: 0 0 50px 0;
 
+  &:last-of-type {
+    margin-bottom: 20px;
+  }
+
   > header {
     background-color: $main-color;
     color: $main-white;
@@ -67,9 +71,33 @@
       }
     }
 
-    @media all and (max-width: $break-point) {
-      & {
-        height: inherit !important;
+    @media all and (max-width: $mid-break-point) {
+      height: inherit !important;
+    }
+
+    @media all and (max-width: $small-break-point) {
+      .text-input, .select-input {
+        align-items: flex-start;
+        flex-direction: column;
+        flex: 1;
+
+        > label {
+          min-width: inherit;
+          width: inherit;
+        }
+
+        input, select {
+          margin-left: 0;
+          width: calc(100% - 20px);
+        }
+      }
+
+      &.totals-section {
+        align-items: flex-start;
+
+        .text-input {
+          width: calc(100% - 20px);
+        }
       }
     }
   }
